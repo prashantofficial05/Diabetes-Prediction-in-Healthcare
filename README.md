@@ -1,17 +1,20 @@
 # Diabetes Prediction in Healthcare
 
  **Introduction:** 
+ 
    A comprehensive machine learning model evaluation project focusing on predicting diabetes using 
-  classification algorithms. The goal is to compare the performance of different classifiers using ROC 
+   classification algorithms. The goal is to compare the performance of different classifiers using ROC 
   (Receiver Operating Characteristic) curves and AUC (Area Under Curve) scores to determine the most effective 
   model for identifying diabetic patients. 
 
 **Goal:**
+
    Evaluate the effectiveness of multiple classification models—Logistic Regression, K-Nearest Neighbors 
   (KNN), and Support Vector Machine (SVM)—in predicting diabetes. Analyze their ability to distinguish between 
   diabetic and non-diabetic patients and select the best-performing model for deployment.
 
 **Description:**
+
   - **Define Scope:** Focused on medical prediction—specifically diabetes detection—by analyzing the model 
        evaluation metrics such as ROC curves, AUC scores, precision, recall, and F1-score.
   - **Data Collection:** Utilized a publicly available diabetes dataset containing patient features such as 
@@ -21,6 +24,7 @@
       using Python’s Scikit-learn library. Hyperparameter tuning (e.g., GridSearchCV) optimized KNN 
       and SVM.
   - **Model Evaluation:**
+    
        - **ROC Curve & AUC Analysis:** ROC curves were plotted for all three models, and AUC values were 
             compared.
        - **Confusion Matrix & Classification Report:** This report includes an Additional evaluation using 
@@ -30,6 +34,7 @@
       and overall balance across evaluation metrics.
      
 **Skills:**
+
    - **Python (Scikit-learn, Matplotlib, Seaborn)** for machine learning model training, evaluation, and ROC 
        curve plotting.
    - **Model evaluation techniques** including AUC-ROC, confusion matrix, and classification report.
@@ -37,6 +42,7 @@
    - **Model selection** and tuning using GridSearchCV for optimal parameter configuration.
      
 **Metrics:**
+
    - **AUC Scores:**
            - Logistic Regression: 0.81
            - SVM: 0.80
